@@ -110,7 +110,7 @@
     "lodash": "^4.13.1",
     "lodash.merge": "^4.4.0",
     "mocha": "^2.5.3",
-    "node-sass": "^3.7.0",
+    "node-sass": "^3.8.0",
     "phantomjs-polyfill": "0.0.2",
     "phantomjs-prebuilt": "^2.1.7",
     "postcss-loader": "^0.9.1",
