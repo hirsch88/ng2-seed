@@ -8,6 +8,8 @@ import {routing} from './app.routes';
 
 import {AppComponent}  from './app';
 import AppConfig from './app.config.ts';
+import {Todo} from './modules/+todo/todo';
+import {Home} from './modules/+home/home';
 
 @NgModule({
   imports: [
@@ -15,7 +17,11 @@ import AppConfig from './app.config.ts';
     FormsModule,
     routing
   ],
-  declarations: [ AppComponent ],
+  declarations: [
+    AppComponent,
+    Home,
+    Todo
+  ],
   providers: [
     // Enable new angular 2 forms
     disableDeprecatedForms(),
